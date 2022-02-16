@@ -1,0 +1,1779 @@
+fileFormatVersion: 2
+guid: b540cea5dea3244a7bffe06184a151ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -709293111977411429
+    second: Axel_white_0
+  - first:
+      213: 8417451423120629621
+    second: Axel_white_1
+  - first:
+      213: 6933322534521829790
+    second: Axel_white_2
+  - first:
+      213: -4561199087482220616
+    second: Axel_white_3
+  - first:
+      213: 8495909019624154343
+    second: Axel_white_4
+  - first:
+      213: 8429837454710725612
+    second: Axel_white_5
+  - first:
+      213: 2535944960071420684
+    second: Axel_white_6
+  - first:
+      213: 8325615224626964636
+    second: Axel_white_7
+  - first:
+      213: -3492891634022042878
+    second: Axel_white_8
+  - first:
+      213: -6279113540943897171
+    second: Axel_white_9
+  - first:
+      213: -4892258746455749531
+    second: Axel_white_10
+  - first:
+      213: -1812258831549860368
+    second: Axel_white_11
+  - first:
+      213: 5908991050610004129
+    second: Axel_white_12
+  - first:
+      213: 448121926116381122
+    second: Axel_white_13
+  - first:
+      213: -7478618904586767356
+    second: Axel_white_14
+  - first:
+      213: 5482611922867175252
+    second: Axel_white_15
+  - first:
+      213: -2122041860383407827
+    second: Axel_white_16
+  - first:
+      213: 675106597598134259
+    second: Axel_white_17
+  - first:
+      213: -4732711809669265124
+    second: Axel_white_18
+  - first:
+      213: -6311404440708947249
+    second: Axel_white_19
+  - first:
+      213: -3250186919059057792
+    second: Axel_white_20
+  - first:
+      213: -2932425779053231891
+    second: Axel_white_21
+  - first:
+      213: -8714903210072602912
+    second: Axel_white_22
+  - first:
+      213: -5094682386648717954
+    second: Axel_white_23
+  - first:
+      213: 4655937837953962825
+    second: Axel_white_24
+  - first:
+      213: 4438273853236113083
+    second: Axel_white_25
+  - first:
+      213: 9109096390635396976
+    second: Axel_white_26
+  - first:
+      213: -6734464109706102342
+    second: Axel_white_27
+  - first:
+      213: 5039888193526863078
+    second: Axel_white_28
+  - first:
+      213: 5597657696923239967
+    second: Axel_white_29
+  - first:
+      213: 315674097999211122
+    second: Axel_white_30
+  - first:
+      213: 5103924596897586212
+    second: Axel_white_31
+  - first:
+      213: -7621762293553674139
+    second: Axel_white_32
+  - first:
+      213: -4428431143387193424
+    second: Axel_white_33
+  - first:
+      213: -1030872675192668376
+    second: Axel_white_34
+  - first:
+      213: 4986954115542523469
+    second: Axel_white_35
+  - first:
+      213: -4796946731935288329
+    second: Axel_white_36
+  - first:
+      213: 8354810521431735708
+    second: Axel_white_37
+  - first:
+      213: -2317510220465377674
+    second: Axel_white_38
+  - first:
+      213: 7375980704882960336
+    second: Axel_white_39
+  - first:
+      213: 529413106491045897
+    second: Axel_white_40
+  - first:
+      213: -1411888259283049582
+    second: Axel_white_41
+  - first:
+      213: -3168879050393588268
+    second: Axel_white_42
+  - first:
+      213: 8717990986732580820
+    second: Axel_white_43
+  - first:
+      213: 6259035721825174897
+    second: Axel_white_44
+  - first:
+      213: -6585507543938877197
+    second: Axel_white_45
+  - first:
+      213: 7643596397652794731
+    second: Axel_white_46
+  - first:
+      213: -8994419747896066759
+    second: Axel_white_47
+  - first:
+      213: -1733323225135488913
+    second: Axel_white_48
+  - first:
+      213: 4237865084309380232
+    second: Axel_white_49
+  - first:
+      213: -1034708650445080716
+    second: Axel_white_50
+  - first:
+      213: -4696245754594962754
+    second: Axel_white_51
+  - first:
+      213: -1976432789279441322
+    second: Axel_white_52
+  - first:
+      213: 570603923879411547
+    second: Axel_white_53
+  - first:
+      213: -3151274164220592065
+    second: Axel_white_54
+  - first:
+      213: -3940830318760187338
+    second: Axel_white_55
+  - first:
+      213: 2474734475174311940
+    second: Axel_white_56
+  - first:
+      213: -75633532658607653
+    second: Axel_white_57
+  - first:
+      213: -1163801950598540115
+    second: Axel_white_58
+  - first:
+      213: -6184058669999470084
+    second: Axel_white_59
+  - first:
+      213: -960668021697989148
+    second: Axel_white_60
+  - first:
+      213: 5946946201370498312
+    second: Axel_white_61
+  - first:
+      213: -2906631263861274618
+    second: Axel_white_62
+  - first:
+      213: -3324535406643137894
+    second: Axel_white_63
+  - first:
+      213: -7779611265527498768
+    second: Axel_white_64
+  - first:
+      213: -987023715639785885
+    second: Axel_white_65
+  - first:
+      213: 4139049952723640765
+    second: Axel_white_66
+  - first:
+      213: 9219254649513976293
+    second: Axel_white_67
+  - first:
+      213: -1897508617329194489
+    second: Axel_white_68
+  - first:
+      213: 6237220124971163137
+    second: Axel_white_69
+  - first:
+      213: -1150210049777709164
+    second: Axel_white_70
+  - first:
+      213: 4172419306901186475
+    second: Axel_white_71
+  - first:
+      213: -7714438957671202423
+    second: Axel_white_72
+  - first:
+      213: -5845251278065549160
+    second: Axel_white_73
+  - first:
+      213: 767498977687506984
+    second: Axel_white_74
+  - first:
+      213: -6397311062671833604
+    second: Axel_white_75
+  - first:
+      213: 6882509124613533217
+    second: Axel_white_76
+  - first:
+      213: -2994627707777091729
+    second: Axel_white_77
+  - first:
+      213: 6124395438898101002
+    second: Axel_white_78
+  - first:
+      213: 2698184752603533844
+    second: Axel_white_79
+  - first:
+      213: -2979449778186603223
+    second: Axel_white_80
+  - first:
+      213: -6886655124811987767
+    second: Axel_white_81
+  - first:
+      213: -2022265873987267349
+    second: Axel_white_82
+  - first:
+      213: -6972184476462161639
+    second: Axel_white_83
+  - first:
+      213: 8783825743034272968
+    second: Axel_white_84
+  - first:
+      213: -719132488304849673
+    second: Axel_white_85
+  - first:
+      213: -4040822452638823926
+    second: Axel_white_86
+  - first:
+      213: -5153695245081440148
+    second: Axel_white_87
+  - first:
+      213: 8130309053581793424
+    second: Axel_white_88
+  - first:
+      213: -3787528889949348915
+    second: Axel_white_89
+  - first:
+      213: 4742791883155072526
+    second: Axel_white_90
+  - first:
+      213: -944895793135453179
+    second: Axel_white_91
+  - first:
+      213: -7407337057228879883
+    second: Axel_white_92
+  - first:
+      213: 8616504991192555183
+    second: Axel_white_93
+  - first:
+      213: 839178781657665210
+    second: Axel_white_94
+  - first:
+      213: 291326286214898515
+    second: Axel_white_95
+  - first:
+      213: -5398457610151216286
+    second: Axel_white_96
+  - first:
+      213: 4560174388665990052
+    second: Axel_white_97
+  - first:
+      213: -1513512179245447284
+    second: Axel_white_98
+  - first:
+      213: 360331336749594562
+    second: Axel_white_99
+  - first:
+      213: -8180110681162471932
+    second: Axel_white_100
+  - first:
+      213: -3030658550513610933
+    second: Axel_white_101
+  - first:
+      213: 2412692489506878967
+    second: Axel_white_102
+  - first:
+      213: 4432709251517959451
+    second: Axel_white_103
+  - first:
+      213: 1031168799435028797
+    second: Axel_white_104
+  - first:
+      213: 3828353643494652534
+    second: Axel_white_105
+  - first:
+      213: 7926013898899679331
+    second: Axel_white_106
+  - first:
+      213: 3187491055630066563
+    second: Axel_white_107
+  - first:
+      213: 7761945213081953036
+    second: Axel_white_108
+  - first:
+      213: -3958713596664150021
+    second: Axel_white_109
+  - first:
+      213: 3889393955434074640
+    second: Axel_white_110
+  - first:
+      213: 6390515374596752853
+    second: Axel_white_111
+  - first:
+      213: -4275332978564440651
+    second: Axel_white_112
+  - first:
+      213: -6568367719234984157
+    second: Axel_white_113
+  - first:
+      213: -6585519536967204966
+    second: Axel_white_114
+  - first:
+      213: 7315292829942560763
+    second: Axel_white_115
+  - first:
+      213: -74715734337234010
+    second: Axel_white_116
+  - first:
+      213: 7908318814012496956
+    second: Axel_white_117
+  - first:
+      213: -1365574308624740942
+    second: Axel_white_118
+  - first:
+      213: 1446635661898278233
+    second: Axel_white_119
+  - first:
+      213: -1110988900190130003
+    second: Axel_white_120
+  - first:
+      213: -8338879766919718344
+    second: Axel_white_121
+  - first:
+      213: -4002720914788814804
+    second: Axel_white_122
+  - first:
+      213: -278844497076709858
+    second: Axel_white_123
+  - first:
+      213: 2185599889738226712
+    second: Axel_white_124
+  - first:
+      213: -2286790692353589334
+    second: Axel_white_125
+  - first:
+      213: -2534510367339803647
+    second: Axel_white_126
+  - first:
+      213: 6253083513362257322
+    second: Axel_white_127
+  - first:
+      213: 2121808323375718999
+    second: Axel_white_128
+  - first:
+      213: -1417569187592179058
+    second: Axel_white_129
+  - first:
+      213: 7067998206278636783
+    second: Axel_white_130
+  - first:
+      213: -16646281180419249
+    second: Axel_white_131
+  - first:
+      213: -1037966406650262183
+    second: Axel_white_132
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Axel_white_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 762
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c74f23ca51826f0800000000000000
+      internalID: -709293111977411429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 762
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1635c87bc0d470800000000000000
+      internalID: 8417451423120629621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 759
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99726f5c1c183060800000000000000
+      internalID: 6933322534521829790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 762
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf49c0a89d53b0c0800000000000000
+      internalID: -4561199087482220616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 759
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e42cb67d3887e570800000000000000
+      internalID: 8495909019624154343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 689
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebd05a708cccf470800000000000000
+      internalID: 8429837454710725612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 677
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bcff2518c713320800000000000000
+      internalID: 2535944960071420684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 577
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9869709fe68a8370800000000000000
+      internalID: 8325615224626964636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 575
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203be23a091c68fc0800000000000000
+      internalID: -3492891634022042878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 578
+        width: 30
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad91bfa08b1cd8a0800000000000000
+      internalID: -6279113540943897171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 581
+        width: 29
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c053427943b1cb0800000000000000
+      internalID: -4892258746455749531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 584
+        width: 46
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5f768c13099d6e0800000000000000
+      internalID: -1812258831549860368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 582
+        width: 28
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a05298ad04f00250800000000000000
+      internalID: 5908991050610004129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 582
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c11b3e748c083600800000000000000
+      internalID: 448121926116381122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 582
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404b59dcabb963890800000000000000
+      internalID: -7478618904586767356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 482
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fb1d7ee76261c40800000000000000
+      internalID: 5482611922867175252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 483
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d218659cb2efc82e0800000000000000
+      internalID: -2122041860383407827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 479
+        width: 52
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fffb57afd57e5900800000000000000
+      internalID: 675106597598134259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 482
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c190e502fa7025eb0800000000000000
+      internalID: -4732711809669265124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 500
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc268b5b9136968a0800000000000000
+      internalID: -6311404440708947249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 394
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0831dd3a73405e2d0800000000000000
+      internalID: -3250186919059057792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 397
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de085556a4eed47d0800000000000000
+      internalID: -2932425779053231891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 372
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e606b734b17e0780800000000000000
+      internalID: -8714903210072602912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 383
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e752d54bc5d0c49b0800000000000000
+      internalID: -5094682386648717954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_24
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 394
+        width: 91
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943db8f9bc63d9040800000000000000
+      internalID: 4655937837953962825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 391
+        width: 96
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeea06fd8ae79d30800000000000000
+      internalID: 4438273853236113083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 327
+        width: 81
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f9d9cb7e20a6e70800000000000000
+      internalID: 9109096390635396976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 361
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9b95ca2906a82a0800000000000000
+      internalID: -6734464109706102342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_28
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 258
+        width: 51
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e49ada0c9741f540800000000000000
+      internalID: 5039888193526863078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 353
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1647578400eead40800000000000000
+      internalID: 5597657696923239967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_30
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 261
+        width: 51
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ae80c6bef716400800000000000000
+      internalID: 315674097999211122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_31
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 276
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c957e0168c4d640800000000000000
+      internalID: 5103924596897586212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 348
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568444a639f0a3690800000000000000
+      internalID: -7621762293553674139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_33
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 260
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1122865d0b82c0800000000000000
+      internalID: -4428431143387193424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 269
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ffb7283ca91b1f0800000000000000
+      internalID: -1030872675192668376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_35
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 268
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e95189858353540800000000000000
+      internalID: 4986954115542523469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 263
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3b684dc52dd6db0800000000000000
+      internalID: -4796946731935288329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 189
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d72af47ef32f370800000000000000
+      internalID: 8354810521431735708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 193
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee2d1bbbc86dfd0800000000000000
+      internalID: -2317510220465377674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 193
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d72fa81f5fbc5660800000000000000
+      internalID: 7375980704882960336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 175
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908b5d75a6ad85700800000000000000
+      internalID: 529413106491045897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 193
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293a3e2db17f76ce0800000000000000
+      internalID: -1411888259283049582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_42
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 213
+        width: 88
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddec190b41e504d0800000000000000
+      internalID: -3168879050393588268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_43
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 212
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfa04fcc968cf870800000000000000
+      internalID: 8717990986732580820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 107
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175ced3c3df8cd650800000000000000
+      internalID: 6259035721825174897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_45
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 155
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83ed1c7c39b94a0800000000000000
+      internalID: -6585507543938877197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ddc881d62831a60800000000000000
+      internalID: 7643596397652794731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 104
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d75edc4e66d2380800000000000000
+      internalID: -8994419747896066759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_48
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 100
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f606dd4d5bff1f7e0800000000000000
+      internalID: -1733323225135488913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_49
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 99
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c9a4c47dbefca30800000000000000
+      internalID: 4237865084309380232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_50
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 101
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477723ce6f9f3a1f0800000000000000
+      internalID: -1034708650445080716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_51
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 105
+        width: 32
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb25e633e5593deb0800000000000000
+      internalID: -4696245754594962754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_52
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 124
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e709889dc4294e0800000000000000
+      internalID: -1976432789279441322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_53
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 122
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fb64ede313be700800000000000000
+      internalID: 570603923879411547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3004c308dc6444d0800000000000000
+      internalID: -3151274164220592065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 14
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa53a54bb5f49c0800000000000000
+      internalID: -3940830318760187338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 15
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4087d2ab4e5085220800000000000000
+      internalID: 2474734475174311940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 15
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd996c8e3bb43fef0800000000000000
+      internalID: -75633532658607653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_58
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 14
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4daa1ca4859dfe0800000000000000
+      internalID: -1163801950598540115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_white_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 12
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9c188776fcd2aa0800000000000000
+      internalID: -6184058669999470084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
