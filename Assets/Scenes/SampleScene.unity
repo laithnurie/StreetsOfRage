@@ -469,6 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  continuousAttackDelay: 1
 --- !u!50 &1956145609
 Rigidbody2D:
   serializedVersion: 4

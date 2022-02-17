@@ -6,25 +6,28 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
     private Rigidbody2D _rigidbody2D;
-    [SerializeField] private float speed;
-    
+    [SerializeField] private float speed = 10f;
+    [SerializeField] private float continuousAttackDelay = 1f;
+
     private PlayerControls _controls;
     private CharacterAnimationController _characterController;
     private Vector2 _playerMovement = Vector2.zero;
+    private float _lastAttackTime;
 
     private void Awake()
     {
         _controls = new PlayerControls();
         _controls.GamePlay.Move.performed += ctx => _playerMovement = ctx.ReadValue<Vector2>();
         _controls.GamePlay.Move.canceled += ctx => _playerMovement = Vector2.zero;
-        // _controls.GamePlay.Jump.performed += ctx => Jump();
+        _controls.GamePlay.Jump.performed += ctx => Jump();
+        _controls.GamePlay.Attack.performed += ctx => Attack();
         // _controls.GamePlay.Dash.performed += ctx => Dash();
         // _controls.GamePlay.Dash.canceled += ctx => Roll();
         // _controls.GamePlay.Attack.performed += ctx => BasicAttack();
         // _controls.GamePlay.SpecialAttack.performed += ctx => SpecialAttack();
         // _controls.GamePlay.Pause.performed += ctx => OnPauseClick();
     }
-    
+
     private void OnEnable()
     {
         _controls.GamePlay.Enable();
@@ -35,7 +38,7 @@ public class PlayerController : MonoBehaviour
         _controls.GamePlay.Disable();
     }
 
-    void Start()
+    private void Start()
     {
         _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -47,7 +50,7 @@ public class PlayerController : MonoBehaviour
         // if (_characterController.IsMidAnim()) return;
         Move(_playerMovement);
     }
-    
+
     private void Move(Vector2 playerMovement)
     {
         if (playerMovement != Vector2.zero)
@@ -69,5 +72,21 @@ public class PlayerController : MonoBehaviour
         if (xVelocity == 0) return gameObject.transform.localScale.x;
         if (xVelocity < 0) return -1f;
         return 1f;
+    }
+
+    private void Jump()
+    {
+    }
+
+    private void Attack()
+    {
+        var currentTime = Time.time;
+        Debug.Log("currentTime - _lastAttackTime " + (currentTime - _lastAttackTime));
+        var continuousAttack = (currentTime - _lastAttackTime) < continuousAttackDelay;
+        Debug.Log("continuous attack: " + continuousAttack);
+        _characterController.ChangeAnimation(continuousAttack
+            ? _characterController.Attack2
+            : _characterController.Attack1);
+        _lastAttackTime = currentTime;
     }
 }

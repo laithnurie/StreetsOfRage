@@ -78,8 +78,10 @@ public class CharacterAnimationController
     public string Idle => "Idle";
     public string Walk => "Walk";
     public static string Run => "Run";
-    // public static string Fall => "Fall";
-    // public static string Jump => "Jump";
+    public static string Fall => "Fall";
+    public static string Jump => "Jump";
+    public string Attack1 => "Attack1";
+    public string Attack2 => "Attack2";
     // public static string Roll => "Roll";
     
     // public static string Dash => "Dash";
