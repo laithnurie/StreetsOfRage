@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,10 +10,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 10f;
     [SerializeField] private float continuousAttackDelay = 1f;
 
+    [SerializeField] private Attack basicAttack;
+    [SerializeField] private Attack specialAttack;
+
     private PlayerControls _controls;
     private CharacterAnimationController _characterController;
     private Vector2 _playerMovement = Vector2.zero;
-    private float _lastAttackTime;
+
+    private float _nextAttackTime = 0f;
 
     private void Awake()
     {
@@ -47,7 +52,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (_characterController.IsMidAnim()) return;
+        if (_characterController.IsMidAnim()) return;
         Move(_playerMovement);
     }
 
@@ -80,13 +85,34 @@ public class PlayerController : MonoBehaviour
 
     private void Attack()
     {
-        var currentTime = Time.time;
-        Debug.Log("currentTime - _lastAttackTime " + (currentTime - _lastAttackTime));
-        var continuousAttack = (currentTime - _lastAttackTime) < continuousAttackDelay;
-        Debug.Log("continuous attack: " + continuousAttack);
-        _characterController.ChangeAnimation(continuousAttack
-            ? _characterController.Attack2
-            : _characterController.Attack1);
-        _lastAttackTime = currentTime;
+        BasicAttack();
     }
+
+    private void BasicAttack()
+    {
+        // if (!_isGrounded) return;
+        ProcessAttack(basicAttack, _characterController.Attack1);
+    }
+
+    private void Attack2()
+    {
+        // if (!_isGrounded) return;
+        ProcessAttack(basicAttack, _characterController.Attack2);
+    }
+
+    private void ProcessAttack(Attack attack, string attackAnimation, Action preAttack = null)
+    {
+        var currentTime = Time.time;
+        if (_nextAttackTime > currentTime || _characterController.IsMidAnim()) return;
+        preAttack?.Invoke();
+        //TODO hitbox
+        // hitbox.AssignedAttack = attack;
+        _nextAttackTime = currentTime + attack.Cooldown;
+        StartCoroutine(_characterController.AnimateOnce(
+            newAnimation: attackAnimation,
+            idle: IsIdle()
+        ));
+    }
+
+    private bool IsIdle() => _rigidbody2D.velocity.x == 0 && _rigidbody2D.velocity.y == 0;
 }

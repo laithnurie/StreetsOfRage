@@ -41,7 +41,7 @@ public class CharacterAnimationController
         _isMidAnim = true;
         yield return new WaitForSeconds(length + additionalWait);
         _isMidAnim = false;
-        //TODO: 
+        //TODO: include running
         ChangeAnimation(idle ? Idle : Walk);
         onComplete?.Invoke(direction);
     }
