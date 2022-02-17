@@ -9,13 +9,14 @@ public class CharacterAnimationController
     private readonly Animator _animator;
     private readonly Transform _transform;
 
-    private string _state = Idle;
+    private string _state;
     private bool _isMidAnim = false;
 
     public CharacterAnimationController(Animator animator, Transform transform)
     {
         _animator = animator;
         _transform = transform;
+        _state = Idle;
     }
 
     public void ChangeAnimation(string newAnimation)
@@ -41,7 +42,7 @@ public class CharacterAnimationController
         yield return new WaitForSeconds(length + additionalWait);
         _isMidAnim = false;
         //TODO: 
-        ChangeAnimation(idle ? Idle : Run);
+        ChangeAnimation(idle ? Idle : Walk);
         onComplete?.Invoke(direction);
     }
 
@@ -74,8 +75,8 @@ public class CharacterAnimationController
     public bool IsMidAnim() => _isMidAnim;
     public string CurrentAnimation() => _state;
 
-    public static string Idle => "Idle";
-    public static string Walk => "Walk";
+    public string Idle => "Idle";
+    public string Walk => "Walk";
     public static string Run => "Run";
     // public static string Fall => "Fall";
     // public static string Jump => "Jump";

@@ -1,0 +1,2184 @@
+fileFormatVersion: 2
+guid: 7b33fd720647747e3bd66a975db79b41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3302670475684697323
+    second: Axel_BK3_0
+  - first:
+      213: 7927161497209753652
+    second: Axel_BK3_1
+  - first:
+      213: -4717634750554368865
+    second: Axel_BK3_2
+  - first:
+      213: 2831486748177692251
+    second: Axel_BK3_3
+  - first:
+      213: 584679629207205112
+    second: Axel_BK3_4
+  - first:
+      213: -5251232511866487802
+    second: Axel_BK3_5
+  - first:
+      213: 6854810401580177334
+    second: Axel_BK3_6
+  - first:
+      213: 582798537099969387
+    second: Axel_BK3_7
+  - first:
+      213: 3706362020726102697
+    second: Axel_BK3_8
+  - first:
+      213: -3605883781605511701
+    second: Axel_BK3_9
+  - first:
+      213: -7018626109362472779
+    second: Axel_BK3_10
+  - first:
+      213: -3350093697320563705
+    second: Axel_BK3_11
+  - first:
+      213: 4136474203164710647
+    second: Axel_BK3_12
+  - first:
+      213: -6599455158040692870
+    second: Axel_BK3_13
+  - first:
+      213: -3180320696670523172
+    second: Axel_BK3_14
+  - first:
+      213: 9175057043072556706
+    second: Axel_BK3_15
+  - first:
+      213: 6896406440960687746
+    second: Axel_BK3_16
+  - first:
+      213: 5212388937139135480
+    second: Axel_BK3_17
+  - first:
+      213: -4598374674272986390
+    second: Axel_BK3_18
+  - first:
+      213: 3085461188448714235
+    second: Axel_BK3_19
+  - first:
+      213: 1845102596725540968
+    second: Axel_BK3_20
+  - first:
+      213: 3029078456445324229
+    second: Axel_BK3_21
+  - first:
+      213: 1868157315167108850
+    second: Axel_BK3_22
+  - first:
+      213: -1689150881658766876
+    second: Axel_BK3_23
+  - first:
+      213: 2934885231176290831
+    second: Axel_BK3_24
+  - first:
+      213: -2055685311971849862
+    second: Axel_BK3_25
+  - first:
+      213: -8338282212681094403
+    second: Axel_BK3_26
+  - first:
+      213: 4840525981625570638
+    second: Axel_BK3_27
+  - first:
+      213: -8276365297877186398
+    second: Axel_BK3_28
+  - first:
+      213: 6466776375360758132
+    second: Axel_BK3_29
+  - first:
+      213: 5041573313417956158
+    second: Axel_BK3_30
+  - first:
+      213: -6142936840017448015
+    second: Axel_BK3_31
+  - first:
+      213: -7008872121963709444
+    second: Axel_BK3_32
+  - first:
+      213: -7115604130738299347
+    second: Axel_BK3_33
+  - first:
+      213: 8779946961263294120
+    second: Axel_BK3_34
+  - first:
+      213: 6134232673957877614
+    second: Axel_BK3_35
+  - first:
+      213: -1347523400213451596
+    second: Axel_BK3_36
+  - first:
+      213: -739125734610130664
+    second: Axel_BK3_37
+  - first:
+      213: -4402770061145669324
+    second: Axel_BK3_38
+  - first:
+      213: -8865838507007175349
+    second: Axel_BK3_39
+  - first:
+      213: -676916465659834057
+    second: Axel_BK3_40
+  - first:
+      213: 4998775195259553556
+    second: Axel_BK3_41
+  - first:
+      213: 8116464705768656193
+    second: Axel_BK3_42
+  - first:
+      213: 4980582446077639359
+    second: Axel_BK3_43
+  - first:
+      213: 6961403293608615222
+    second: Axel_BK3_44
+  - first:
+      213: -5568932504070507911
+    second: Axel_BK3_45
+  - first:
+      213: 3836923354052686989
+    second: Axel_BK3_46
+  - first:
+      213: -4501342248531402321
+    second: Axel_BK3_47
+  - first:
+      213: 5451766827335426297
+    second: Axel_BK3_48
+  - first:
+      213: -1168522199945949218
+    second: Axel_BK3_49
+  - first:
+      213: 8443549223089361334
+    second: Axel_BK3_50
+  - first:
+      213: -5178776402145613947
+    second: Axel_BK3_51
+  - first:
+      213: -3921414560899629894
+    second: Axel_BK3_52
+  - first:
+      213: 5654777123737135140
+    second: Axel_BK3_53
+  - first:
+      213: -4233611365605537301
+    second: Axel_BK3_54
+  - first:
+      213: -3294256464386961296
+    second: Axel_BK3_55
+  - first:
+      213: -6684231113439351330
+    second: Axel_BK3_56
+  - first:
+      213: -8043657503340414562
+    second: Axel_BK3_57
+  - first:
+      213: 8046297216483383646
+    second: Axel_BK3_58
+  - first:
+      213: 1932617579977464640
+    second: Axel_BK3_59
+  - first:
+      213: -8112043778641541092
+    second: Axel_BK3_60
+  - first:
+      213: -1265573402409005914
+    second: Axel_BK3_61
+  - first:
+      213: -2944856841031735684
+    second: Axel_BK3_62
+  - first:
+      213: -7955104476802163426
+    second: Axel_BK3_63
+  - first:
+      213: 1437332009850448080
+    second: Axel_BK3_64
+  - first:
+      213: 8072757843388260672
+    second: Axel_BK3_65
+  - first:
+      213: -6449450096033103218
+    second: Axel_BK3_66
+  - first:
+      213: -144847201493356016
+    second: Axel_BK3_67
+  - first:
+      213: -2304733826630937473
+    second: Axel_BK3_68
+  - first:
+      213: -629071843213840501
+    second: Axel_BK3_69
+  - first:
+      213: 7596535589029265458
+    second: Axel_BK3_70
+  - first:
+      213: -2238948110821868800
+    second: Axel_BK3_71
+  - first:
+      213: 3514537192429534739
+    second: Axel_BK3_72
+  - first:
+      213: 1951368753815176230
+    second: Axel_BK3_73
+  - first:
+      213: -4926876303020213096
+    second: Axel_BK3_74
+  - first:
+      213: 6582621208603579932
+    second: Axel_BK3_75
+  - first:
+      213: 2198778315376156394
+    second: Axel_BK3_76
+  - first:
+      213: -2259181753605587275
+    second: Axel_BK3_77
+  - first:
+      213: -6536670757338271313
+    second: Axel_BK3_78
+  - first:
+      213: 5343793920726392898
+    second: Axel_BK3_79
+  - first:
+      213: 2582143497126254770
+    second: Axel_BK3_80
+  - first:
+      213: -1127370870433977980
+    second: Axel_BK3_81
+  - first:
+      213: -5870955001211845460
+    second: Axel_BK3_82
+  - first:
+      213: 9095545736149594415
+    second: Axel_BK3_83
+  - first:
+      213: 5722808442180818716
+    second: Axel_BK3_84
+  - first:
+      213: 4852986608007123278
+    second: Axel_BK3_85
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Axel_BK3_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1143
+        width: 37
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be45b51ac4175dd20800000000000000
+      internalID: 3302670475684697323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1143
+        width: 38
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430575eb16fe20e60800000000000000
+      internalID: 7927161497209753652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1143
+        width: 38
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f941b218038978eb0800000000000000
+      internalID: -4717634750554368865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1143
+        width: 38
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b567b5312367b4720800000000000000
+      internalID: 2831486748177692251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1143
+        width: 40
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f47d4666033d1800800000000000000
+      internalID: 584679629207205112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1148
+        width: 39
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c37394adfdf17b0800000000000000
+      internalID: -5251232511866487802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1149
+        width: 43
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7d6dcedbd212f50800000000000000
+      internalID: 6854810401580177334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1143
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6306738e24861800800000000000000
+      internalID: 582798537099969387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1142
+        width: 40
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad066ee94af6330800000000000000
+      internalID: 3706362020726102697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1135
+        width: 53
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedaf003ec355fdc0800000000000000
+      internalID: -3605883781605511701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1021
+        width: 30
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8fa246db4d89e90800000000000000
+      internalID: -7018626109362472779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1021
+        width: 29
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ccee628831281d0800000000000000
+      internalID: -3350093697320563705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1021
+        width: 46
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6133e2f55b76930800000000000000
+      internalID: 4136474203164710647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1021
+        width: 28
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a777dd9cf760a64a0800000000000000
+      internalID: -6599455158040692870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1021
+        width: 45
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0712b2d2b3dd3d0800000000000000
+      internalID: -3180320696670523172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1021
+        width: 38
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae1946e4c9545f70800000000000000
+      internalID: 9175057043072556706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_16
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1021
+        width: 66
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e7d2c8e15f4bf50800000000000000
+      internalID: 6896406440960687746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1021
+        width: 68
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3aa553f10265840800000000000000
+      internalID: 5212388937139135480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_18
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1021
+        width: 40
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5ec3d89a4f20c0800000000000000
+      internalID: -4598374674272986390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_19
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1021
+        width: 67
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd7db97a92c1da20800000000000000
+      internalID: 3085461188448714235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_20
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1021
+        width: 68
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8680af3390f1b9910800000000000000
+      internalID: 1845102596725540968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 915
+        width: 62
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb4631bec2790a20800000000000000
+      internalID: 3029078456445324229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 915
+        width: 70
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe35132e270de910800000000000000
+      internalID: 1868157315167108850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_23
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 915
+        width: 41
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9f0bef83eee88e0800000000000000
+      internalID: -1689150881658766876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 915
+        width: 42
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f029dcc619ecab820800000000000000
+      internalID: 2934885231176290831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_25
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 915
+        width: 80
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a790ee9a91db873e0800000000000000
+      internalID: -2055685311971849862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 915
+        width: 78
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa6f247188784c80800000000000000
+      internalID: -8338282212681094403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 799
+        width: 37
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4557dcebb00d2340800000000000000
+      internalID: 4840525981625570638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 799
+        width: 58
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a809a49c91742d80800000000000000
+      internalID: -8276365297877186398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 799
+        width: 73
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4712447d9da9eb950800000000000000
+      internalID: 6466776375360758132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_30
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 799
+        width: 53
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bcd57973447f540800000000000000
+      internalID: 5041573313417956158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 808
+        width: 43
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3791d9d77efbaa0800000000000000
+      internalID: -6142936840017448015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_32
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 809
+        width: 52
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf63e80fb7bbe90800000000000000
+      internalID: -7008872121963709444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 816
+        width: 49
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9a014ebb404d90800000000000000
+      internalID: -7115604130738299347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_34
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 826
+        width: 78
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a67edc3e33a8d970800000000000000
+      internalID: 8779946961263294120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_35
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 826
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e679adccd1c212550800000000000000
+      internalID: 6134232673957877614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 701
+        width: 62
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc20c36b92ac4de0800000000000000
+      internalID: -1347523400213451596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 701
+        width: 55
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819a6387f091eb5f0800000000000000
+      internalID: -739125734610130664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 749
+        width: 15
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43100bdc4f736e2c0800000000000000
+      internalID: -4402770061145669324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_39
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 701
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459bd1e9d636f480800000000000000
+      internalID: -8865838507007175349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 701
+        width: 55
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7319bb99f0c1b96f0800000000000000
+      internalID: -676916465659834057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_41
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 701
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417ca713e873f5540800000000000000
+      internalID: 4998775195259553556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_42
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 701
+        width: 46
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d0653a5a973a070800000000000000
+      internalID: 8116464705768656193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_43
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 701
+        width: 41
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaf001b8559e1540800000000000000
+      internalID: 4980582446077639359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_44
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 584
+        width: 52
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d96c5996fdb9060800000000000000
+      internalID: 6961403293608615222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 584
+        width: 53
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97230cc946d27b2b0800000000000000
+      internalID: -5568932504070507911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 584
+        width: 47
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84f5bc267d7f3530800000000000000
+      internalID: 3836923354052686989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_47
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 592
+        width: 32
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e3d7f2150881c0800000000000000
+      internalID: -4501342248531402321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_48
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 596
+        width: 28
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f026957b0198ab40800000000000000
+      internalID: 5451766827335426297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_49
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 584
+        width: 47
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf4010104398cfe0800000000000000
+      internalID: -1168522199945949218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_50
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 584
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b154c558438d2570800000000000000
+      internalID: 8443549223089361334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_51
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 452
+        width: 51
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5876fe2fc4a4128b0800000000000000
+      internalID: -5178776402145613947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_52
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 452
+        width: 51
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc7880cb365499c0800000000000000
+      internalID: -3921414560899629894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_53
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 534
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4286b5075ddc97e40800000000000000
+      internalID: 5654777123737135140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_54
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 452
+        width: 51
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98604c4e03f35c0800000000000000
+      internalID: -4233611365605537301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 452
+        width: 73
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0705e2903337842d0800000000000000
+      internalID: -3294256464386961296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_56
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 452
+        width: 73
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd65d68737dc33a0800000000000000
+      internalID: -6684231113439351330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 452
+        width: 72
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e993d7a2e103f5090800000000000000
+      internalID: -8043657503340414562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_58
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 452
+        width: 78
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59d4b1ffa03aaf60800000000000000
+      internalID: 8046297216483383646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_59
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 462
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b5b35137902da10800000000000000
+      internalID: 1932617579977464640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 324
+        width: 59
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1847aba92b3c6f80800000000000000
+      internalID: -8112043778641541092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_61
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 324
+        width: 87
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac8a3022b7cf6ee0800000000000000
+      internalID: -1265573402409005914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_62
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 324
+        width: 72
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76aceb3e44c127d0800000000000000
+      internalID: -2944856841031735684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_63
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 324
+        width: 66
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d561550aac99190800000000000000
+      internalID: -7955104476802163426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_64
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 324
+        width: 91
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d82f6ff8dd62f310800000000000000
+      internalID: 1437332009850448080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_65
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 324
+        width: 96
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041e7ecbc72380070800000000000000
+      internalID: 8072757843388260672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_66
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 324
+        width: 81
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82865dee43fe76a0800000000000000
+      internalID: -6449450096033103218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_67
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 358
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0127748dc366dfdf0800000000000000
+      internalID: -144847201493356016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_68
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 324
+        width: 80
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7416d1bbc0f300e0800000000000000
+      internalID: -2304733826630937473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_69
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 350
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fe907dd761547f0800000000000000
+      internalID: -629071843213840501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_70
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 345
+        width: 14
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c3bbbed05c6960800000000000000
+      internalID: 7596535589029265458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 174
+        width: 73
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b3eef3e88ade0e0800000000000000
+      internalID: -2238948110821868800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_72
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 174
+        width: 73
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e39a8a4f426c030800000000000000
+      internalID: 3514537192429534739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_73
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 174
+        width: 56
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62443f4fa87a41b10800000000000000
+      internalID: 1951368753815176230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 174
+        width: 80
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cb03a2b1830abb0800000000000000
+      internalID: -4926876303020213096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_75
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 174
+        width: 64
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d4cdec1b2a5b50800000000000000
+      internalID: 6582621208603579932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_76
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 174
+        width: 65
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeed3db6a31a38e10800000000000000
+      internalID: 2198778315376156394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_77
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 174
+        width: 56
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be7b4d2a26c5a0e0800000000000000
+      internalID: -2259181753605587275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_78
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 174
+        width: 57
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa13b2734941945a0800000000000000
+      internalID: -6536670757338271313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_79
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 174
+        width: 48
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e9cd1248f82a40800000000000000
+      internalID: 5343793920726392898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_80
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 179
+        width: 38
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b89b4174dd95d320800000000000000
+      internalID: 2582143497126254770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_81
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 44
+        width: 49
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e8a99a26ca50f0800000000000000
+      internalID: -1127370870433977980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_82
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 55
+        width: 66
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca40774388d268ea0800000000000000
+      internalID: -5870955001211845460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_83
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 44
+        width: 86
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21f38128aed93e70800000000000000
+      internalID: 9095545736149594415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_84
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 44
+        width: 66
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c175bc915ff7b6f40800000000000000
+      internalID: 5722808442180818716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel_BK3_85
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 44
+        width: 43
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e411ef59b95495340800000000000000
+      internalID: 4852986608007123278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

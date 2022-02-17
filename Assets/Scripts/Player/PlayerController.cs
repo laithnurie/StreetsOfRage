@@ -57,7 +57,10 @@ public class PlayerController : MonoBehaviour
             gameObject.transform.localScale = new Vector3(playerMovement.x > 0 ? 1f : -1f, 1f, 1f);
         }
 
-        Debug.Log("player movement x: " + playerMovement.x);
         _rigidbody2D.velocity = new Vector3(playerMovement.x * speed, playerMovement.y * speed);
+        
+        _characterController.ChangeAnimation(_rigidbody2D.velocity.x == 0
+            ? _characterController.Idle
+            : _characterController.Walk);
     }
 }
