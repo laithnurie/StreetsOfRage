@@ -44,7 +44,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         bodyController.UpdateBody(_playerMovement);
-        groupShadow.UpdateMovement(_playerMovement);
     }
 
     private void Jump()
