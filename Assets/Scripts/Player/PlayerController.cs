@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField] private BodyController bodyController;
+    [SerializeField] private GroundShadow groupShadow;
 
     [SerializeField] private Attack basicAttack;
     [SerializeField] private Attack specialAttack;
@@ -43,9 +44,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         bodyController.UpdateBody(_playerMovement);
+        groupShadow.UpdateMovement(_playerMovement);
     }
 
     private void Jump()
     {
+        bodyController.Jump();
+        groupShadow.Jump();
     }
 }

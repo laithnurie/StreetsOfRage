@@ -6,6 +6,7 @@ public class BodyController : MonoBehaviour
 {
     private CharacterAnimationController _characterController;
     [SerializeField] private float speed = 10f;
+    [SerializeField] private float jump = 5f;
     
     private Rigidbody2D _rigidbody2D;
     
@@ -20,7 +21,12 @@ public class BodyController : MonoBehaviour
         if (_characterController.IsMidAnim()) return;
         Move(playerMovement);
     }
-    
+
+    public void Jump()
+    {
+        _rigidbody2D.velocity = new Vector3(_rigidbody2D.velocity.x, jump);
+        _characterController.ChangeAnimation(_characterController.Jump);
+    }
 
     private void Move(Vector2 playerMovement)
     {
