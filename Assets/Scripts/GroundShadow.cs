@@ -11,22 +11,14 @@ public class GroundShadow : MonoBehaviour
     private float _lastYPosition;
     private float _offset = 0.3f;
     
-    private Rigidbody2D _rigidbody2D;
-    
-    private void Start()
+    public void MoveShadow(Vector3 bodyPosition)
     {
-        _rigidbody2D = GetComponent<Rigidbody2D>();
-    }
-
-    public void MoveShadow(Vector3 newVelocity)
-    {
-        var yPosition = _lockYAxis ? _lastYPosition : newVelocity.y;
-        _rigidbody2D.velocity = new Vector3(newVelocity.x, yPosition - _offset);
+        var yPosition = _lockYAxis ? _lastYPosition : bodyPosition.y;
+        transform.position = new Vector3(bodyPosition.x, yPosition - _offset);
         if (!_lockYAxis)
         {
-            _lastYPosition = newVelocity.y;
+            _lastYPosition = bodyPosition.y;
         }
-        Debug.Log("_lockYAxis: " +_lockYAxis);
     }
 
     public void Jump()
@@ -34,22 +26,15 @@ public class GroundShadow : MonoBehaviour
         _lockYAxis = true;
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnCollisionStay2D(Collision2D col)
     {
         UpdateGroundStatus(col, true);
-        StartCoroutine(LockAxisDelay(false));
+        _lockYAxis = false;
     }
 
     private void OnCollisionExit2D(Collision2D col)
     {
         UpdateGroundStatus(col, false);
-        StartCoroutine(LockAxisDelay(true));
-    }
-
-    private IEnumerator LockAxisDelay(bool lockYAxis)
-    {
-        yield return new WaitForSeconds(0.5f);
-        _lockYAxis = lockYAxis;
     }
 
     private void UpdateGroundStatus(Collision2D col, bool isGround)

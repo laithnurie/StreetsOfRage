@@ -9,28 +9,28 @@ public class BodyController : MonoBehaviour
     [SerializeField] private float speed = 10f;
     [SerializeField] private float jump = 5f;
     [SerializeField] private float gravityScale = 10f;
-    
+
     private CharacterAnimationController _characterController;
     private Rigidbody2D _rigidbody2D;
     private bool _isGround = true;
-    
+
     void Start()
     {
         _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
-    
+
     public void UpdateBody(Vector2 playerMovement)
     {
-        Debug.Log("Gravity scale: " + _rigidbody2D.gravityScale);
-        Debug.Log("_isGround: " + _isGround);
         if (_characterController.IsMidAnim()) return;
         if (!_isGround)
         {
-            var jumpFallAnimation = _rigidbody2D.velocity.y < 0.1f ? _characterController.Fall : _characterController.Jump;
+            var jumpFallAnimation =
+                _rigidbody2D.velocity.y < 0.1f ? _characterController.Fall : _characterController.Jump;
             _characterController.ChangeAnimation(jumpFallAnimation);
         }
-        Move(playerMovement);   
+
+        Move(playerMovement);
     }
 
     public void Jump()
@@ -50,20 +50,26 @@ public class BodyController : MonoBehaviour
         {
             gameObject.transform.localScale = new Vector3(GetDirection(playerMovement.x), 1f, 1f);
         }
+        
+        var currentPosition = transform.position;
+        var yPosition = _isGround ? currentPosition.y + playerMovement.y : transform.position.y;
+        currentPosition = new Vector3(
+            currentPosition.x + playerMovement.x,
+            yPosition
+        );
+        
+        transform.position = currentPosition;
 
-        var yVelocity = _isGround ? playerMovement.y * speed : _rigidbody2D.velocity.y;
-        var newVelocity = new Vector3(playerMovement.x * speed, yVelocity);
-        // _rigidbody2D.velocity = newVelocity;
-        // groupShadow.MoveShadow(newVelocity);
+        groupShadow.MoveShadow(currentPosition);
 
         if (_isGround)
         {
-            _characterController.ChangeAnimation(newVelocity.x == 0 && newVelocity.y == 0
+            _characterController.ChangeAnimation(playerMovement.x == 0 && playerMovement.y == 0
                 ? _characterController.Idle
-                : _characterController.Walk);    
+                : _characterController.Walk);
         }
     }
-    
+
     private float GetDirection(float xVelocity)
     {
         // check negative or positive to switch the character around
@@ -71,9 +77,10 @@ public class BodyController : MonoBehaviour
         if (xVelocity < 0) return -1f;
         return 1f;
     }
-    
+
     public void UpdateIsGround(bool isGround)
     {
+        Debug.Log("isGround: " + isGround);
         StartCoroutine(IsGroundDelay(isGround));
     }
 
