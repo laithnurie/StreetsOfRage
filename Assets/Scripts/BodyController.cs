@@ -39,6 +39,7 @@ public class BodyController : MonoBehaviour
         var currentVelocity = _rigidbody2D.velocity;
         currentVelocity = new Vector3(currentVelocity.x, currentVelocity.y + jump);
         _rigidbody2D.velocity = currentVelocity;
+        _rigidbody2D.gravityScale = gravityScale;
         groupShadow.Jump();
         _characterController.ChangeAnimation(_characterController.Jump);
     }
@@ -52,8 +53,8 @@ public class BodyController : MonoBehaviour
 
         var yVelocity = _isGround ? playerMovement.y * speed : _rigidbody2D.velocity.y;
         var newVelocity = new Vector3(playerMovement.x * speed, yVelocity);
-        _rigidbody2D.velocity = newVelocity;
-        groupShadow.MoveShadow(transform.position);
+        // _rigidbody2D.velocity = newVelocity;
+        // groupShadow.MoveShadow(newVelocity);
 
         if (_isGround)
         {
@@ -78,7 +79,7 @@ public class BodyController : MonoBehaviour
 
     private IEnumerator IsGroundDelay(bool isGround)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0f);
         _isGround = isGround;
         _rigidbody2D.gravityScale = isGround ? 0 : gravityScale;
     }

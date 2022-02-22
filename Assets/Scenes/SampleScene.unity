@@ -177,7 +177,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &123454207
 SpriteRenderer:
@@ -264,8 +264,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groupShadow: {fileID: 837276845}
   speed: 10
-  jump: 50
-  gravityScale: 20
+  jump: 20
+  gravityScale: 5
 --- !u!61 &123454210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -576,7 +576,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1 &1654662149
 GameObject:
