@@ -22,23 +22,24 @@ public class BodyController : MonoBehaviour
     
     public void UpdateBody(Vector2 playerMovement)
     {
+        Debug.Log("Gravity scale: " + _rigidbody2D.gravityScale);
+        Debug.Log("_isGround: " + _isGround);
         if (_characterController.IsMidAnim()) return;
         if (!_isGround)
         {
-            var jumpFallAnimation = _rigidbody2D.velocity.y < 0 ? _characterController.Fall : _characterController.Jump;
+            var jumpFallAnimation = _rigidbody2D.velocity.y < 0.1f ? _characterController.Fall : _characterController.Jump;
             _characterController.ChangeAnimation(jumpFallAnimation);
         }
-        Move(playerMovement);
+        Move(playerMovement);   
     }
 
     public void Jump()
     {
         if (!_isGround) return;
-        groupShadow.Jump();
         var currentVelocity = _rigidbody2D.velocity;
         currentVelocity = new Vector3(currentVelocity.x, currentVelocity.y + jump);
-        _rigidbody2D.gravityScale = gravityScale;
         _rigidbody2D.velocity = currentVelocity;
+        groupShadow.Jump();
         _characterController.ChangeAnimation(_characterController.Jump);
     }
 
@@ -49,7 +50,8 @@ public class BodyController : MonoBehaviour
             gameObject.transform.localScale = new Vector3(GetDirection(playerMovement.x), 1f, 1f);
         }
 
-        var newVelocity = new Vector3(playerMovement.x * speed, playerMovement.y * speed);
+        var yVelocity = _isGround ? playerMovement.y * speed : _rigidbody2D.velocity.y;
+        var newVelocity = new Vector3(playerMovement.x * speed, yVelocity);
         _rigidbody2D.velocity = newVelocity;
         groupShadow.MoveShadow(transform.position);
 
@@ -71,7 +73,13 @@ public class BodyController : MonoBehaviour
     
     public void UpdateIsGround(bool isGround)
     {
+        StartCoroutine(IsGroundDelay(isGround));
+    }
+
+    private IEnumerator IsGroundDelay(bool isGround)
+    {
+        yield return new WaitForSeconds(0.5f);
         _isGround = isGround;
-        if (isGround) _rigidbody2D.gravityScale = 0;
+        _rigidbody2D.gravityScale = isGround ? 0 : gravityScale;
     }
 }
