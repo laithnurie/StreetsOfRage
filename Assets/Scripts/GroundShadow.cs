@@ -10,25 +10,22 @@ public class GroundShadow : MonoBehaviour
     [SerializeField] private BodyController bodyController;
 
     private bool _lockYAxis = false;
-    private float _lastYAxis;
-    private float _offset;
+    private float _lastYPosition;
+    private float _offset = 0.25f;
 
-    private void Start()
+    public void MoveShadow(Vector3 newVelocity)
     {
-        _offset = bodyController.transform.position.y - this.transform.position.y;
-    }
-
-    private void Update()
-    {
-        var bodyPosition = bodyController.gameObject.transform.position;
-        var yPosition = _lockYAxis ? _lastYAxis : bodyPosition.y;
-        gameObject.transform.position = new Vector3(bodyPosition.x, yPosition - _offset);
+        var yPosition = _lockYAxis ? _lastYPosition : newVelocity.y;
+        gameObject.transform.position = new Vector3(newVelocity.x, yPosition - _offset);
+        if (!_lockYAxis)
+        {
+            _lastYPosition = newVelocity.y;
+        }
     }
 
     public void Jump()
     {
         _lockYAxis = true;
-        _lastYAxis = bodyController.transform.position.y;
     }
 
     private void OnTriggerEnter2D(Collider2D col)

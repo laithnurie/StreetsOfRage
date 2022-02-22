@@ -262,8 +262,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af2ce19f836b4668a1820568cb47bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groupShadow: {fileID: 837276845}
   speed: 10
   jump: 20
+  gravityScale: 10
 --- !u!61 &123454210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -502,7 +504,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyController: {fileID: 123454209}
-  shadowOffset: 0.25
 --- !u!61 &837276846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -606,7 +607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956145604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.05, y: -7.08, z: 0}
+  m_LocalPosition: {x: -9.69, y: -4.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 123454205}
@@ -627,6 +628,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyController: {fileID: 123454209}
-  groupShadow: {fileID: 837276845}
   basicAttack: {fileID: 11400000, guid: 39963791183a344e4994913e5f09a4b9, type: 2}
   specialAttack: {fileID: 11400000, guid: fba75ef890c5e4e18a86d466b8758a90, type: 2}

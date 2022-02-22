@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class BodyController : MonoBehaviour
 {
-    private CharacterAnimationController _characterController;
+    [SerializeField] private GroundShadow groupShadow;
     [SerializeField] private float speed = 10f;
     [SerializeField] private float jump = 5f;
+    [SerializeField] private float gravityScale = 10f;
     
+    private CharacterAnimationController _characterController;
     private Rigidbody2D _rigidbody2D;
     private bool _isGround = true;
     
@@ -21,9 +23,10 @@ public class BodyController : MonoBehaviour
     public void UpdateBody(Vector2 playerMovement)
     {
         if (_characterController.IsMidAnim()) return;
-        if (!_isGround && _rigidbody2D.velocity.y > 0)
+        if (!_isGround)
         {
-            _characterController.ChangeAnimation(_characterController.Fall);
+            var jumpFallAnimation = _rigidbody2D.velocity.y < 0 ? _characterController.Fall : _characterController.Jump;
+            _characterController.ChangeAnimation(jumpFallAnimation);
         }
         Move(playerMovement);
     }
@@ -31,9 +34,10 @@ public class BodyController : MonoBehaviour
     public void Jump()
     {
         if (!_isGround) return;
+        groupShadow.Jump();
         var currentVelocity = _rigidbody2D.velocity;
         currentVelocity = new Vector3(currentVelocity.x, currentVelocity.y + jump);
-        _rigidbody2D.gravityScale = 10;
+        _rigidbody2D.gravityScale = gravityScale;
         _rigidbody2D.velocity = currentVelocity;
         _characterController.ChangeAnimation(_characterController.Jump);
     }
@@ -47,10 +51,14 @@ public class BodyController : MonoBehaviour
 
         var newVelocity = new Vector3(playerMovement.x * speed, playerMovement.y * speed);
         _rigidbody2D.velocity = newVelocity;
+        groupShadow.MoveShadow(transform.position);
 
-        _characterController.ChangeAnimation(newVelocity.x == 0 && newVelocity.y == 0
-            ? _characterController.Idle
-            : _characterController.Walk);
+        if (_isGround)
+        {
+            _characterController.ChangeAnimation(newVelocity.x == 0 && newVelocity.y == 0
+                ? _characterController.Idle
+                : _characterController.Walk);    
+        }
     }
     
     private float GetDirection(float xVelocity)
