@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class BodyController : MonoBehaviour
     [SerializeField] private float jump = 5f;
     
     private Rigidbody2D _rigidbody2D;
+    private bool _isGround = true;
     
     void Start()
     {
@@ -19,12 +21,20 @@ public class BodyController : MonoBehaviour
     public void UpdateBody(Vector2 playerMovement)
     {
         if (_characterController.IsMidAnim()) return;
+        if (!_isGround && _rigidbody2D.velocity.y > 0)
+        {
+            _characterController.ChangeAnimation(_characterController.Fall);
+        }
         Move(playerMovement);
     }
 
     public void Jump()
     {
-        _rigidbody2D.velocity = new Vector3(_rigidbody2D.velocity.x, jump);
+        if (!_isGround) return;
+        var currentVelocity = _rigidbody2D.velocity;
+        currentVelocity = new Vector3(currentVelocity.x, currentVelocity.y + jump);
+        _rigidbody2D.gravityScale = 10;
+        _rigidbody2D.velocity = currentVelocity;
         _characterController.ChangeAnimation(_characterController.Jump);
     }
 
@@ -50,6 +60,10 @@ public class BodyController : MonoBehaviour
         if (xVelocity < 0) return -1f;
         return 1f;
     }
-
-
+    
+    public void UpdateIsGround(bool isGround)
+    {
+        _isGround = isGround;
+        if (isGround) _rigidbody2D.gravityScale = 0;
+    }
 }
