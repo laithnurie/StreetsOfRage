@@ -264,8 +264,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groupShadow: {fileID: 837276845}
   speed: 10
-  jump: 20
-  gravityScale: 5
+  jump: 30
+  gravityScale: 10
 --- !u!61 &123454210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837276843}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

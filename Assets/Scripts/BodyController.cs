@@ -33,7 +33,7 @@ public class BodyController : MonoBehaviour
             }
         }
 
-        Move(playerMovement);
+        // Move(playerMovement);
     }
 
     public void Jump()
@@ -86,9 +86,9 @@ public class BodyController : MonoBehaviour
         StartCoroutine(IsGroundDelay(isGround));
     }
 
-    public void UpdateGravityScale(bool enableGravity)
+    public void DisableGravity()
     {
-        _rigidbody2D.gravityScale = enableGravity ? gravityScale : 0;
+        _rigidbody2D.gravityScale = 0;
     }
 
     private IEnumerator IsGroundDelay(bool isGround)
