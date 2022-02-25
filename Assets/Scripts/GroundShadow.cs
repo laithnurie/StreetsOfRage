@@ -6,7 +6,6 @@ using UnityEngine;
 public class GroundShadow : MonoBehaviour
 {
     [SerializeField] private BodyController bodyController;
-    private Collider2D collider2D;
 
     private bool _lockYAxis = false;
     private float _lastYPosition;
@@ -14,53 +13,27 @@ public class GroundShadow : MonoBehaviour
 
     private void Start()
     {
-        collider2D = GetComponent<Collider2D>();
         _offset = bodyController.transform.position.y - transform.position.y;
     }
 
-    public void MoveShadow(Vector3 bodyPosition)
+    private void Update()
     {
-        var yPosition = _lockYAxis ? _lastYPosition : bodyPosition.y;
-        if (bodyPosition.y < yPosition)
+        var currentDistance = bodyController.transform.position.y - transform.position.y;
+        
+        if (currentDistance <= _offset)
         {
-            yPosition = bodyPosition.y - _offset;
+            _lockYAxis = false;
+            bodyController.ToggleGravity(false);
+            bodyController.UpdateIsGround(true);
+            bodyController.ResetPositionRelativeToShadow();
         }
-        transform.position = new Vector3(bodyPosition.x, yPosition - _offset);
-    }
-
-    public void Jump()
-    {
-        StartCoroutine(EnableColliderDelay());
-    }
-
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        _lockYAxis = false;
-        collider2D.enabled = false;
-        UpdateGroundStatus(col, true);
-        Debug.Log("OnCollisionEnter2D");
-    }
-
-    private void UpdateGroundStatus(Collision2D col, bool isGround)
-    {
-        if (!(col.gameObject.GetComponent(typeof(BodyController)) is BodyController)) return;
-        var collidedBodyController = col.gameObject.GetComponent<BodyController>();
-        if (collidedBodyController != bodyController) return;
-        if (!isGround)
+        else
         {
-            _lastYPosition = col.gameObject.transform.position.y;    
+            bodyController.ToggleGravity(true);
+            _lockYAxis = true;
+            bodyController.UpdateIsGround(false);
         }
-
-        bodyController.DisableGravity();
-        bodyController.UpdateIsGround(isGround);
     }
 
-    private IEnumerator EnableColliderDelay()
-    {
-        _lockYAxis = true;
-        _lastYPosition = bodyController.transform.position.y;
-        bodyController.UpdateIsGround(false);
-        yield return new WaitForSeconds(0.5f);
-        collider2D.enabled = true;
-    }
+    public float Offset => _offset;
 }
