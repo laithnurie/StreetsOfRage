@@ -23,17 +23,15 @@ public class BodyController : MonoBehaviour
     public void UpdateBody(Vector2 playerMovement)
     {
         if (_characterController.IsMidAnim()) return;
-        if (!_isGround)
+        if (_isGround)
         {
-            if (_rigidbody2D.velocity != Vector2.zero)
-            {
-                var jumpFallAnimation =
-                    _rigidbody2D.velocity.y < 0f ? _characterController.Fall : _characterController.Jump;
-                _characterController.ChangeAnimation(jumpFallAnimation);
-            }
+            MoveOnGround(playerMovement);
+        }
+        else
+        {
+            MoveMidAir(playerMovement);
         }
 
-        // Move(playerMovement);
     }
 
     public void Jump()
@@ -47,6 +45,31 @@ public class BodyController : MonoBehaviour
         _characterController.ChangeAnimation(_characterController.Jump);
     }
 
+    private void MoveOnGround(Vector2 playerMovement)
+    {
+        if (playerMovement != Vector2.zero)
+        {
+            gameObject.transform.localScale = new Vector3(GetDirection(playerMovement.x), 1f, 1f);
+        }
+        
+        _characterController.ChangeAnimation(playerMovement.x == 0 && playerMovement.y == 0
+            ? _characterController.Idle
+            : _characterController.Walk);
+        
+        var newVelocity = new Vector3(playerMovement.x * speed, playerMovement.y * speed);
+        _rigidbody2D.velocity = newVelocity;
+        
+        groupShadow.MoveShadow(transform.position);
+    }
+
+    private void MoveMidAir(Vector2 playerMovement)
+    {
+        if (_rigidbody2D.velocity == Vector2.zero) return;
+        var jumpFallAnimation =
+            (_rigidbody2D.velocity.y < 0f && _rigidbody2D.gravityScale == gravityScale) ? _characterController.Fall : _characterController.Jump;
+        _characterController.ChangeAnimation(jumpFallAnimation);
+    }
+    
     private void Move(Vector2 playerMovement)
     {
         if (playerMovement != Vector2.zero)
@@ -54,22 +77,22 @@ public class BodyController : MonoBehaviour
             gameObject.transform.localScale = new Vector3(GetDirection(playerMovement.x), 1f, 1f);
         }
 
-        var currentPosition = transform.position;
-        var yPosition = _isGround ? currentPosition.y + playerMovement.y : transform.position.y;
-        currentPosition = new Vector3(
-            currentPosition.x + playerMovement.x,
-            yPosition
-        );
-
-        transform.position = currentPosition;
-
-        groupShadow.MoveShadow(currentPosition);
-
         if (_isGround)
         {
+            var newVelocity = new Vector3(playerMovement.x * speed, playerMovement.y * speed);
+            _rigidbody2D.velocity = newVelocity;
+        
+            groupShadow.MoveShadow(transform.position);   
+            
             _characterController.ChangeAnimation(playerMovement.x == 0 && playerMovement.y == 0
                 ? _characterController.Idle
                 : _characterController.Walk);
+        }
+        else
+        {
+            var newVelocity = new Vector3(playerMovement.x * speed, _rigidbody2D.velocity.y);
+            _rigidbody2D.velocity = newVelocity;
+            groupShadow.MoveShadow(transform.position);   
         }
     }
 
@@ -89,6 +112,7 @@ public class BodyController : MonoBehaviour
     public void DisableGravity()
     {
         _rigidbody2D.gravityScale = 0;
+        _isGround = false;
     }
 
     private IEnumerator IsGroundDelay(bool isGround)

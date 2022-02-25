@@ -15,12 +15,16 @@ public class GroundShadow : MonoBehaviour
     private void Start()
     {
         collider2D = GetComponent<Collider2D>();
+        _offset = bodyController.transform.position.y - transform.position.y;
     }
 
     public void MoveShadow(Vector3 bodyPosition)
     {
-        _offset = bodyController.transform.position.y - transform.position.y;
         var yPosition = _lockYAxis ? _lastYPosition : bodyPosition.y;
+        if (bodyPosition.y < yPosition)
+        {
+            yPosition = bodyPosition.y - _offset;
+        }
         transform.position = new Vector3(bodyPosition.x, yPosition - _offset);
     }
 
@@ -33,11 +37,11 @@ public class GroundShadow : MonoBehaviour
     {
         _lockYAxis = false;
         collider2D.enabled = false;
-        UpdateGroundStatus(col, true, false);
+        UpdateGroundStatus(col, true);
         Debug.Log("OnCollisionEnter2D");
     }
 
-    private void UpdateGroundStatus(Collision2D col, bool isGround, bool enabledGravity)
+    private void UpdateGroundStatus(Collision2D col, bool isGround)
     {
         if (!(col.gameObject.GetComponent(typeof(BodyController)) is BodyController)) return;
         var collidedBodyController = col.gameObject.GetComponent<BodyController>();
@@ -54,6 +58,8 @@ public class GroundShadow : MonoBehaviour
     private IEnumerator EnableColliderDelay()
     {
         _lockYAxis = true;
+        _lastYPosition = bodyController.transform.position.y;
+        bodyController.UpdateIsGround(false);
         yield return new WaitForSeconds(0.5f);
         collider2D.enabled = true;
     }
