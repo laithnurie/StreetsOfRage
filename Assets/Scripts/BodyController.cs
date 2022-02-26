@@ -42,6 +42,7 @@ public class BodyController : MonoBehaviour
 
     public void Jump()
     {
+        if(midJump) return;
         groundShadow.LockYAxis(true);
         midJump = true;
         var currentVelocity = _rigidbody2D.velocity;
@@ -98,4 +99,6 @@ public class BodyController : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x, groundShadow.transform.position.y + offset);
     }
+
+    public CharacterAnimationController CharacterAnimationController => _characterController;
 }

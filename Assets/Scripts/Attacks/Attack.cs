@@ -6,6 +6,7 @@ using UnityEngine;
 public class Attack : ScriptableObject
 {
     [SerializeField] private string attackName;
+    [SerializeField] private string attackType;
     [SerializeField] private int damage;
     [SerializeField] private int horizontalHitSpace;
     [SerializeField] private int verticalHitSpace;
@@ -20,4 +21,6 @@ public class Attack : ScriptableObject
     public int VerticalHitSpace => verticalHitSpace;
     
     public float Cooldown => cooldown;
+
+    public string AttackType => attackType;
 }
