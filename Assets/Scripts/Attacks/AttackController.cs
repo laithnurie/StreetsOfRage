@@ -6,14 +6,16 @@ using UnityEngine;
 public class AttackController
 {
     private readonly CharacterAnimationController _characterController;
+    private readonly HitBox _hitBox;
     private float _lastProceedAttack;
     private readonly Queue<Attack> _attacksQueues;
     private bool _midAttack;
     private readonly int _maxContinuousAttack = 3;
 
-    public AttackController(CharacterAnimationController characterController)
+    public AttackController(CharacterAnimationController characterController, HitBox hitBox)
     {
         _characterController = characterController;
+        _hitBox = hitBox;
         _attacksQueues = new Queue<Attack>(_maxContinuousAttack);
     }
 
@@ -33,6 +35,11 @@ public class AttackController
     private IEnumerator ProcessAttack(Attack attack)
     {
         _midAttack = true;
-        yield return _characterController.AnimateOnce(attack.AttackType, true, () => { _midAttack = false; });
+        _hitBox.SetAttack(attack);
+        yield return _characterController.AnimateOnce(attack.AttackType, true, () =>
+        {
+            _midAttack = false;
+            _hitBox.SetAttack(null);
+        });
     }
 }

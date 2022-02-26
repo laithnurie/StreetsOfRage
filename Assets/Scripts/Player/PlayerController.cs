@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private Attack basicAttack;
     [SerializeField] private Attack specialAttack;
+    [SerializeField] private HitBox hitBox;
 
     private AttackController _attackController;
 
@@ -31,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        _attackController = new AttackController(bodyController.CharacterAnimationController);
+        _attackController = new AttackController(bodyController.CharacterAnimationController, hitBox);
     }
 
     private void OnEnable()
