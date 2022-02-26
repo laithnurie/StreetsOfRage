@@ -5,45 +5,31 @@ using UnityEngine;
 
 public class GroundShadow : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     [SerializeField] private BodyController bodyController;
 
     private bool _lockYAxis = false;
     private float _lastYPosition;
-    private float _offset = 0.25f;
-
-    public void MoveShadow(Vector3 newVelocity)
+    private float _offset;
+    private void Start()
     {
-        var yPosition = _lockYAxis ? _lastYPosition : newVelocity.y;
-        gameObject.transform.position = new Vector3(newVelocity.x, yPosition - _offset);
-        if (!_lockYAxis)
+        _offset = bodyController.transform.position.y - transform.position.y;
+    }
+
+    private void Update()
+    {
+        var yLocation = _lockYAxis ? _lastYPosition : bodyController.transform.position.y;
+        transform.position = new Vector3(bodyController.transform.position.x, yLocation - _offset);
+    }
+
+    public float Offset => _offset;
+
+    public void LockYAxis(bool inAir)
+    {
+        _lockYAxis = inAir;
+        if (inAir) { _lastYPosition = bodyController.transform.position.y; }
+        else
         {
-            _lastYPosition = newVelocity.y;
+            bodyController.ResetPositionRelativeToShadow();
         }
-    }
-
-    public void Jump()
-    {
-        _lockYAxis = true;
-    }
-
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        UpdateGroundStatus(col, true);
-    }
-
-    private void OnTriggerExit2D(Collider2D col)
-    {
-        UpdateGroundStatus(col, false);
-    }
-
-    private void UpdateGroundStatus(Collider2D col, bool isGround)
-    {
-        if (!(col.gameObject.GetComponent(typeof(BodyController)) is BodyController)) return;
-        var collidedBodyController = col.gameObject.GetComponent<BodyController>();
-        if (collidedBodyController != bodyController) return;
-        bodyController.UpdateIsGround(isGround);
-        _lockYAxis = !isGround;
     }
 }

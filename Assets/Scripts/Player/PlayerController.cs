@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     [SerializeField] private BodyController bodyController;
 
     [SerializeField] private Attack basicAttack;
@@ -39,7 +37,6 @@ public class PlayerController : MonoBehaviour
         _controls.GamePlay.Disable();
     }
 
-    // Update is called once per frame
     void Update()
     {
         bodyController.UpdateBody(_playerMovement);
