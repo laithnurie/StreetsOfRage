@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AxelSpecial
   m_EditorClassIdentifier: 
   attackName: Axel Special
+  attackType: Attack2
   damage: 20
   horizontalHitSpace: 10
   verticalHitSpace: 10

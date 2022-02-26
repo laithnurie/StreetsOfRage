@@ -26,24 +26,19 @@ public class CharacterAnimationController
         _state = newAnimation;
     }
 
-    public IEnumerator AnimateOnce(string newAnimation, bool idle, Action<float> rigidBodyMovement = null,
-        Action<float> onComplete = null, float additionalWait = 0f)
+    public IEnumerator AnimateOnce(string newAnimation, bool idle,
+        Action onComplete = null, float additionalWait = 0f)
     {
         if (_state == newAnimation) yield return null;
         _animator.Play(newAnimation);
         _state = newAnimation;
 
-
-        var direction = _transform.localScale.x;
-        rigidBodyMovement?.Invoke(direction);
-
         var length = GetAnimationLength(newAnimation);
         _isMidAnim = true;
         yield return new WaitForSeconds(length + additionalWait);
         _isMidAnim = false;
-        //TODO: include running
-        ChangeAnimation(idle ? Idle : Walk);
-        onComplete?.Invoke(direction);
+        if (idle) { ChangeAnimation(Idle); }
+        onComplete?.Invoke();
     }
 
     public IEnumerator DeathAnimation()
