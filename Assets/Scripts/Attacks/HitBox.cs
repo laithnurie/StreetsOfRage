@@ -14,10 +14,10 @@ public class HitBox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // TODO: Check if other and damage 
+        // TODO: Check if other is an enemy and send damage 
         if (currentAttack != null)
         {
-            //TODO: Light/Heavy attack logic based on attack detailed
+            // TODO: Light/Heavy attack logic based to receive hit or knockout
         }
     }
 }
