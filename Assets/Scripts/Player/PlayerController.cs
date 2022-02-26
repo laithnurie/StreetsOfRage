@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     {
         if (_attackController.NeedToProcessAttack())
         {
+            bodyController.Freeze();
             StartCoroutine(_attackController.NextAttack());
         }
         else

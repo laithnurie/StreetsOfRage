@@ -101,4 +101,9 @@ public class BodyController : MonoBehaviour
     }
 
     public CharacterAnimationController CharacterAnimationController => _characterController;
+
+    public void Freeze()
+    {
+        _rigidbody2D.velocity = Vector2.zero;
+    }
 }

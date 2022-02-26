@@ -9,17 +9,19 @@ public class AttackController
     private float lastProceedAttack;
     private Queue<Attack> AttacksQueues;
     private bool midAttack;
+    private readonly int _maxContinuousAttack = 3;
 
     public AttackController(CharacterAnimationController characterController)
     {
         _characterController = characterController;
-        AttacksQueues = new Queue<Attack>(3);
+        AttacksQueues = new Queue<Attack>(_maxContinuousAttack);
     }
 
     public bool NeedToProcessAttack() => AttacksQueues.Count != 0 && !midAttack;
 
     public void AddAttack(Attack attack)
     {
+        if (AttacksQueues.Count == _maxContinuousAttack) return;
         AttacksQueues.Enqueue(attack);
     }
 
@@ -31,10 +33,6 @@ public class AttackController
     private IEnumerator ProcessAttack(Attack attack)
     {
         midAttack = true;
-        yield return _characterController.AnimateOnce(attack.AttackType, true, () =>
-        {
-            midAttack = false;
-        });
+        yield return _characterController.AnimateOnce(attack.AttackType, true, () => { midAttack = false; });
     }
-
 }
