@@ -94,8 +94,8 @@ public class BodyController : MonoBehaviour
         return 1f;
     }
 
-    public void ResetPositionRelativeToShadow()
+    public void ResetPositionRelativeToShadow(float offset)
     {
-        transform.position = new Vector3(transform.position.x, groundShadow.transform.position.y + groundShadow.Offset);
+        transform.position = new Vector3(transform.position.x, groundShadow.transform.position.y + offset);
     }
 }

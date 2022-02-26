@@ -21,15 +21,13 @@ public class GroundShadow : MonoBehaviour
         transform.position = new Vector3(bodyController.transform.position.x, yLocation - _offset);
     }
 
-    public float Offset => _offset;
-
     public void LockYAxis(bool inAir)
     {
         _lockYAxis = inAir;
         if (inAir) { _lastYPosition = bodyController.transform.position.y; }
         else
         {
-            bodyController.ResetPositionRelativeToShadow();
+            bodyController.ResetPositionRelativeToShadow(_offset);
         }
     }
 }
