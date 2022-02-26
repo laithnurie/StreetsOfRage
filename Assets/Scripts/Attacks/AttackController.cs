@@ -5,34 +5,34 @@ using UnityEngine;
 
 public class AttackController
 {
-    private CharacterAnimationController _characterController;
-    private float lastProceedAttack;
-    private Queue<Attack> AttacksQueues;
-    private bool midAttack;
+    private readonly CharacterAnimationController _characterController;
+    private float _lastProceedAttack;
+    private readonly Queue<Attack> _attacksQueues;
+    private bool _midAttack;
     private readonly int _maxContinuousAttack = 3;
 
     public AttackController(CharacterAnimationController characterController)
     {
         _characterController = characterController;
-        AttacksQueues = new Queue<Attack>(_maxContinuousAttack);
+        _attacksQueues = new Queue<Attack>(_maxContinuousAttack);
     }
 
-    public bool NeedToProcessAttack() => AttacksQueues.Count != 0 && !midAttack;
+    public bool NeedToProcessAttack() => _attacksQueues.Count != 0 && !_midAttack;
 
     public void AddAttack(Attack attack)
     {
-        if (AttacksQueues.Count == _maxContinuousAttack) return;
-        AttacksQueues.Enqueue(attack);
+        if (_attacksQueues.Count == _maxContinuousAttack) return;
+        _attacksQueues.Enqueue(attack);
     }
 
     public IEnumerator NextAttack()
     {
-        yield return ProcessAttack(AttacksQueues.Dequeue());
+        yield return ProcessAttack(_attacksQueues.Dequeue());
     }
 
     private IEnumerator ProcessAttack(Attack attack)
     {
-        midAttack = true;
-        yield return _characterController.AnimateOnce(attack.AttackType, true, () => { midAttack = false; });
+        _midAttack = true;
+        yield return _characterController.AnimateOnce(attack.AttackType, true, () => { _midAttack = false; });
     }
 }
