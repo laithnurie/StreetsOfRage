@@ -23,15 +23,11 @@ public class GroundShadow : MonoBehaviour
         if (currentDistance <= _offset)
         {
             _lockYAxis = false;
-            bodyController.ToggleGravity(false);
-            bodyController.UpdateIsGround(true);
             bodyController.ResetPositionRelativeToShadow();
         }
         else
         {
-            bodyController.ToggleGravity(true);
             _lockYAxis = true;
-            bodyController.UpdateIsGround(false);
         }
     }
 

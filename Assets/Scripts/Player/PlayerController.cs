@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         _controls.GamePlay.Disable();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         bodyController.UpdateBody(_playerMovement);
     }

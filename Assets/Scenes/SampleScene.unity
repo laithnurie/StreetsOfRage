@@ -262,10 +262,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af2ce19f836b4668a1820568cb47bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groupShadow: {fileID: 837276845}
+  groundShadow: {fileID: 837276845}
   speed: 10
   jump: 30
   gravityScale: 10
+  jumpPadding: 0.5
 --- !u!61 &123454210
 BoxCollider2D:
   m_ObjectHideFlags: 0

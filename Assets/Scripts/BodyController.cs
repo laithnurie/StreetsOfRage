@@ -5,14 +5,16 @@ using UnityEngine;
 
 public class BodyController : MonoBehaviour
 {
-    [SerializeField] private GroundShadow groupShadow;
+    [SerializeField] private GroundShadow groundShadow;
     [SerializeField] private float speed = 10f;
     [SerializeField] private float jump = 5f;
     [SerializeField] private float gravityScale = 10f;
+    [SerializeField] private float jumpPadding = 0.5f;
+
+    private bool midJump = false;
 
     private CharacterAnimationController _characterController;
     private Rigidbody2D _rigidbody2D;
-    private bool _isGround = true;
 
     void Start()
     {
@@ -23,24 +25,40 @@ public class BodyController : MonoBehaviour
     public void UpdateBody(Vector2 playerMovement)
     {
         if (_characterController.IsMidAnim()) return;
-        if (_isGround)
+        
+        // var currentDistance = transform.position.y - groundShadow.transform.position.y;
+        var currentDistance = Vector3.Distance(transform.position, groundShadow.transform.position);
+        var inAir = currentDistance  >= jumpPadding && midJump;
+
+        Debug.Log("current distance: " + currentDistance);
+        if (inAir)
         {
-            // MoveOnGround(playerMovement);
+            Debug.Log("midJump");
+            MoveMidAir(playerMovement);
         }
         else
         {
-            MoveMidAir(playerMovement);
+            MoveOnGround(playerMovement);
         }
+        _rigidbody2D.gravityScale = inAir ? gravityScale : 0;
     }
 
     public void Jump()
     {
-        if (!_isGround) return;
+        midJump = true;
         var currentVelocity = _rigidbody2D.velocity;
         currentVelocity = new Vector3(currentVelocity.x, currentVelocity.y + jump);
         _rigidbody2D.velocity = currentVelocity;
         _rigidbody2D.gravityScale = gravityScale;
         _characterController.ChangeAnimation(_characterController.Jump);
+
+        StartCoroutine(WaitForJump());
+    }
+
+    private IEnumerator WaitForJump()
+    {
+        yield return new WaitForSeconds(0.5f);
+        midJump = false;
     }
 
     private void MoveOnGround(Vector2 playerMovement)
@@ -77,18 +95,8 @@ public class BodyController : MonoBehaviour
         return 1f;
     }
 
-    public void UpdateIsGround(bool isGround)
-    {
-        _isGround = isGround;
-    }
-
-    public void ToggleGravity(bool enable)
-    {
-        _rigidbody2D.gravityScale = enable? gravityScale: 0;
-    }
-
     public void ResetPositionRelativeToShadow()
     {
-        transform.position = new Vector3(transform.position.x, groupShadow.transform.position.y + groupShadow.Offset);
+        transform.position = new Vector3(transform.position.x, groundShadow.transform.position.y + groundShadow.Offset);
     }
 }
