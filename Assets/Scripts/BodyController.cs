@@ -26,14 +26,11 @@ public class BodyController : MonoBehaviour
     {
         if (_characterController.IsMidAnim()) return;
         
-        // var currentDistance = transform.position.y - groundShadow.transform.position.y;
         var currentDistance = Vector3.Distance(transform.position, groundShadow.transform.position);
         var inAir = currentDistance  >= jumpPadding && midJump;
 
-        Debug.Log("current distance: " + currentDistance);
         if (inAir)
         {
-            Debug.Log("midJump");
             MoveMidAir(playerMovement);
         }
         else
@@ -45,6 +42,7 @@ public class BodyController : MonoBehaviour
 
     public void Jump()
     {
+        groundShadow.LockYAxis(true);
         midJump = true;
         var currentVelocity = _rigidbody2D.velocity;
         currentVelocity = new Vector3(currentVelocity.x, currentVelocity.y + jump);
@@ -57,7 +55,8 @@ public class BodyController : MonoBehaviour
 
     private IEnumerator WaitForJump()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitUntil(() => _rigidbody2D.velocity.y == 0);
+        groundShadow.LockYAxis(false);
         midJump = false;
     }
 

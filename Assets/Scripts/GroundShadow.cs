@@ -10,7 +10,6 @@ public class GroundShadow : MonoBehaviour
     private bool _lockYAxis = false;
     private float _lastYPosition;
     private float _offset;
-
     private void Start()
     {
         _offset = bodyController.transform.position.y - transform.position.y;
@@ -18,18 +17,19 @@ public class GroundShadow : MonoBehaviour
 
     private void Update()
     {
-        var currentDistance = bodyController.transform.position.y - transform.position.y;
-        
-        if (currentDistance <= _offset)
-        {
-            _lockYAxis = false;
-            bodyController.ResetPositionRelativeToShadow();
-        }
-        else
-        {
-            _lockYAxis = true;
-        }
+        var yLocation = _lockYAxis ? _lastYPosition : bodyController.transform.position.y;
+        transform.position = new Vector3(bodyController.transform.position.x, yLocation - _offset);
     }
 
     public float Offset => _offset;
+
+    public void LockYAxis(bool inAir)
+    {
+        _lockYAxis = inAir;
+        if (inAir) { _lastYPosition = bodyController.transform.position.y; }
+        else
+        {
+            bodyController.ResetPositionRelativeToShadow();
+        }
+    }
 }
