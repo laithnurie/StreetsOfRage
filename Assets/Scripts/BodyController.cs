@@ -7,19 +7,24 @@ public class BodyController : MonoBehaviour
 {
     [SerializeField] private GroundShadow groundShadow;
     [SerializeField] private float speed = 10f;
-    [SerializeField] private float jump = 5f;
+    [SerializeField] private float jump = 30f;
     [SerializeField] private float gravityScale = 10f;
     [SerializeField] private float jumpPadding = 0.5f;
+    
+    //TODO: singleton pattern setup later
+    [SerializeField] private LevelController levelController;
 
     private bool midJump = false;
 
     private CharacterAnimationController _characterController;
     private Rigidbody2D _rigidbody2D;
+    private Collider2D _collider2D;
 
     void Start()
     {
         _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _collider2D = GetComponent<Collider2D>();
     }
 
     public void UpdateBody(Vector2 playerMovement)
@@ -31,13 +36,16 @@ public class BodyController : MonoBehaviour
 
         if (inAir)
         {
+            _rigidbody2D.gravityScale = gravityScale;
+            _collider2D.isTrigger = true;
             MoveMidAir(playerMovement);
         }
         else
         {
+            _rigidbody2D.gravityScale = 0;
+            _collider2D.isTrigger = false;
             MoveOnGround(playerMovement);
         }
-        _rigidbody2D.gravityScale = inAir ? gravityScale : 0;
     }
 
     public void Jump()
@@ -85,6 +93,13 @@ public class BodyController : MonoBehaviour
 
         var newVelocity = new Vector3(playerMovement.x * speed, _rigidbody2D.velocity.y);
         _rigidbody2D.velocity = newVelocity;
+        
+        
+        if (!levelController.PlayerIsInXBounds(transform.position.x))
+        {
+            Debug.Log("Player reached Bounds");
+            ReachXBounds();
+        }
     }
 
     private float GetDirection(float xVelocity)
@@ -98,6 +113,7 @@ public class BodyController : MonoBehaviour
     public void ResetPositionRelativeToShadow(float offset)
     {
         transform.position = new Vector3(transform.position.x, groundShadow.transform.position.y + offset);
+        _collider2D.isTrigger = false;
     }
 
     public CharacterAnimationController CharacterAnimationController => _characterController;
@@ -105,5 +121,10 @@ public class BodyController : MonoBehaviour
     public void Freeze()
     {
         _rigidbody2D.velocity = Vector2.zero;
+    }
+
+    private void ReachXBounds()
+    {
+        _rigidbody2D.velocity =new Vector3(0, _rigidbody2D.velocity.y);
     }
 }
