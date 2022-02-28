@@ -6,8 +6,8 @@ public class LevelController : MonoBehaviour
 {
     [SerializeField] private Level _level;
 
-    public bool PlayerIsInXBounds(float playerXPosition)
+    public bool PlayerIsInXBounds(float playerXPosition, float playerColliderWidth)
     {
-        return _level.GetLeftBounds() <= playerXPosition  && playerXPosition <= _level.GetRightBounds();
+        return _level.GetLeftBounds() + playerColliderWidth <= playerXPosition  && playerXPosition <= _level.GetRightBounds();
     }
 }

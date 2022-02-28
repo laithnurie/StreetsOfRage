@@ -10,7 +10,7 @@ public class BodyController : MonoBehaviour
     [SerializeField] private float jump = 30f;
     [SerializeField] private float gravityScale = 10f;
     [SerializeField] private float jumpPadding = 0.5f;
-    
+
     //TODO: singleton pattern setup later
     [SerializeField] private LevelController levelController;
 
@@ -19,20 +19,22 @@ public class BodyController : MonoBehaviour
     private CharacterAnimationController _characterController;
     private Rigidbody2D _rigidbody2D;
     private Collider2D _collider2D;
+    private float _colliderWidth;
 
     void Start()
     {
         _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _collider2D = GetComponent<Collider2D>();
+        _colliderWidth = _collider2D.bounds.size.x / 2;
     }
 
     public void UpdateBody(Vector2 playerMovement)
     {
         if (_characterController.IsMidAnim()) return;
-        
+
         var currentDistance = Vector3.Distance(transform.position, groundShadow.transform.position);
-        var inAir = currentDistance  >= jumpPadding && midJump;
+        var inAir = currentDistance >= jumpPadding && midJump;
 
         if (inAir)
         {
@@ -50,7 +52,7 @@ public class BodyController : MonoBehaviour
 
     public void Jump()
     {
-        if(midJump) return;
+        if (midJump) return;
         groundShadow.LockYAxis(true);
         midJump = true;
         var currentVelocity = _rigidbody2D.velocity;
@@ -93,9 +95,8 @@ public class BodyController : MonoBehaviour
 
         var newVelocity = new Vector3(playerMovement.x * speed, _rigidbody2D.velocity.y);
         _rigidbody2D.velocity = newVelocity;
-        
-        
-        if (!levelController.PlayerIsInXBounds(transform.position.x))
+
+        if (!levelController.PlayerIsInXBounds(transform.position.x, _colliderWidth))
         {
             Debug.Log("Player reached Bounds");
             ReachXBounds();
@@ -125,6 +126,6 @@ public class BodyController : MonoBehaviour
 
     private void ReachXBounds()
     {
-        _rigidbody2D.velocity =new Vector3(0, _rigidbody2D.velocity.y);
+        _rigidbody2D.velocity = new Vector3(0, _rigidbody2D.velocity.y);
     }
 }
