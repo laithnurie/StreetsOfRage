@@ -17,12 +17,6 @@ public class Level : MonoBehaviour
         _rightBoundsSize = rightBounds.GetComponent<Collider2D>().bounds.size.x;
     }
 
-    private void Update()
-    {
-        Debug.Log("_leftBoundsize: " + _leftBoundsize);
-        Debug.Log("_rightBoundsSize: " + _rightBoundsSize);
-    }
-
     public float GetLeftBounds() => leftBounds.transform.position.x + _leftBoundsize;
 
     public float GetRightBounds() => rightBounds.transform.position.x - _rightBoundsSize;
