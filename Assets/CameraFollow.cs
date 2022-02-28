@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target;
-    public Vector3 offset;
-    public Vector3 minVal, maxVal;
-    [Range(1,10)]
-    public float smoothFactor;
+    [SerializeField] private Transform target;
+    [SerializeField] private Vector3 offset;
+    [SerializeField] private Vector3 minVal, maxVal;
+    [Range(1, 10)] [SerializeField] private float smoothFactor;
 
-    // Update is called once per frame
     private void LateUpdate()
     {
         Follow();
