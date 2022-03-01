@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameLoader : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private MainObjectsHolder mainObjectsHolder;
     [SerializeField] private GameObject currentSceneSpawnPoint;
