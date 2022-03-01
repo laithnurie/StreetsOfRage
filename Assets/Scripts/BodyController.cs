@@ -11,8 +11,7 @@ public class BodyController : MonoBehaviour
     [SerializeField] private float gravityScale = 10f;
     [SerializeField] private float jumpPadding = 0.5f;
 
-    //TODO: singleton pattern setup later
-    [SerializeField] private LevelController levelController;
+    private LevelController _levelController;
 
     private bool midJump = false;
 
@@ -23,6 +22,7 @@ public class BodyController : MonoBehaviour
 
     void Start()
     {
+        _levelController = GameController.i.LevelController;
         _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _collider2D = GetComponent<Collider2D>();
@@ -96,9 +96,8 @@ public class BodyController : MonoBehaviour
         var newVelocity = new Vector3(playerMovement.x * speed, _rigidbody2D.velocity.y);
         _rigidbody2D.velocity = newVelocity;
 
-        if (!levelController.PlayerIsInXBounds(transform.position.x, _colliderWidth))
+        if (_levelController != null && !_levelController.PlayerIsInXBounds(transform.position.x, _colliderWidth))
         {
-            Debug.Log("Player reached Bounds");
             ReachXBounds();
         }
     }
