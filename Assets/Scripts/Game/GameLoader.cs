@@ -17,7 +17,7 @@ public class GameLoader : MonoBehaviour
         if (currentSceneSpawnPoint != null)
             spawnPos = currentSceneSpawnPoint.transform.position;
 
-        Instantiate(mainObjectsHolder, spawnPos, Quaternion.identity);
-        mainObjectsHolder.SetLevelController(levelController);
+        var newObjectsHolder = Instantiate(mainObjectsHolder, spawnPos, Quaternion.identity);
+        newObjectsHolder.SetLevelController(levelController);
     }
 }

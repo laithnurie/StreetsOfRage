@@ -96,8 +96,10 @@ public class BodyController : MonoBehaviour
         var newVelocity = new Vector3(playerMovement.x * speed, _rigidbody2D.velocity.y);
         _rigidbody2D.velocity = newVelocity;
 
-        if (_levelController != null && _levelController.PlayerIsInXBounds(transform.position.x, _colliderWidth)) return;
-        ReachXBounds();
+        if (_levelController != null && !_levelController.PlayerIsInXBounds(transform.position.x, _colliderWidth))
+        {
+            ReachXBounds();
+        }
     }
 
     private float GetDirection(float xVelocity)
