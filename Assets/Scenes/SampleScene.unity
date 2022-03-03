@@ -507,6 +507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 1654662151}
+  levelMusic: {fileID: 8300000, guid: a5059bb09d225424ea7082091837ef4b, type: 3}
+  bossMusic: {fileID: 0}
 --- !u!4 &1741604851
 Transform:
   m_ObjectHideFlags: 0
