@@ -18,3 +18,4 @@ MonoBehaviour:
   horizontalHitSpace: 10
   verticalHitSpace: 10
   cooldown: 7
+  attackSound: {fileID: 8300000, guid: efd9db947f00446ec830dc18fd309265, type: 3}
