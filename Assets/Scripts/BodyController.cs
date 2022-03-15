@@ -16,6 +16,7 @@ public class BodyController : MonoBehaviour
     private bool midJump = false;
 
     private CharacterAnimationController _characterController;
+    private AudioSource _bodyAudioSource;
     private Rigidbody2D _rigidbody2D;
     private Collider2D _collider2D;
     private float _colliderWidth;
@@ -23,6 +24,7 @@ public class BodyController : MonoBehaviour
     private void Awake()
     {
         _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
+        _bodyAudioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -121,6 +123,8 @@ public class BodyController : MonoBehaviour
     }
 
     public CharacterAnimationController CharacterAnimationController => _characterController;
+
+    public AudioSource BodyAudioSource => _bodyAudioSource;
 
     public void Freeze()
     {

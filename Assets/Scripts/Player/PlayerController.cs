@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private HitBox hitBox;
 
     private AttackController _attackController;
-    private AudioSource _playerAudioSource;
 
     private PlayerControls _controls;
     private Vector2 _playerMovement = Vector2.zero;
@@ -33,8 +32,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        _playerAudioSource = GetComponent<AudioSource>();
-        _attackController = new AttackController(bodyController.CharacterAnimationController, hitBox, _playerAudioSource);
+        _attackController = new AttackController(bodyController.CharacterAnimationController, hitBox, bodyController.BodyAudioSource);
     }
 
     private void OnEnable()
