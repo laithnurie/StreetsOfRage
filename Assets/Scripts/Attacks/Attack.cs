@@ -11,6 +11,7 @@ public class Attack : ScriptableObject
     [SerializeField] private int horizontalHitSpace;
     [SerializeField] private int verticalHitSpace;
     [SerializeField] private float cooldown;
+    [SerializeField] private AudioClip attackSound;
 
     public string AttackName => attackName;
 
@@ -23,4 +24,6 @@ public class Attack : ScriptableObject
     public float Cooldown => cooldown;
 
     public string AttackType => attackType;
+
+    public AudioClip AttackSound => attackSound;
 }

@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        _attackController = new AttackController(bodyController.CharacterAnimationController, hitBox);
+        _attackController = new AttackController(bodyController.CharacterAnimationController, hitBox, bodyController.BodyAudioSource);
     }
 
     private void OnEnable()

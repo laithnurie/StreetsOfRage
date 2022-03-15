@@ -16,14 +16,20 @@ public class BodyController : MonoBehaviour
     private bool midJump = false;
 
     private CharacterAnimationController _characterController;
+    private AudioSource _bodyAudioSource;
     private Rigidbody2D _rigidbody2D;
     private Collider2D _collider2D;
     private float _colliderWidth;
 
+    private void Awake()
+    {
+        _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
+        _bodyAudioSource = GetComponent<AudioSource>();
+    }
+
     void Start()
     {
         _levelController = GameController.i.LevelController;
-        _characterController = new CharacterAnimationController(GetComponent<Animator>(), transform);
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _collider2D = GetComponent<Collider2D>();
         _colliderWidth = _collider2D.bounds.size.x / 2;
@@ -117,6 +123,8 @@ public class BodyController : MonoBehaviour
     }
 
     public CharacterAnimationController CharacterAnimationController => _characterController;
+
+    public AudioSource BodyAudioSource => _bodyAudioSource;
 
     public void Freeze()
     {
